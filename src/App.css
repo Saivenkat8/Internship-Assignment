@@ -1,0 +1,139 @@
+.App {
+  text-align: center;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+* {
+  background-color: #171717;
+  color: #FFFFFF;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+h5 {
+  text-align: center;
+  padding-top: 25px;
+}
+
+p {
+  padding: 25px;
+  padding-left: 60px;
+}
+
+
+.todo-form {
+  padding-left: 60px;
+}
+
+.todo-input {
+  padding: 4px 28px 4px 10px;
+  border-radius: 4px;
+  border: 2px solid;
+  border-color: #171717;
+  outline: none;
+  width: 640px;
+  background: #858181;
+  color: #FFFFFF;
+}
+
+.todo-input::placeholder {
+  color: #e2e2e2;
+}
+
+.todo-button {
+  padding: 4px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  background: #C620A7;
+  color: #fff;
+  width: 128px;
+  margin-left: 32px;
+  text-transform: capitalize;
+}
+
+.grouplists {
+  padding-left: 60px;
+}
+
+.list-check {
+  width: 256px;
+}
+
+.card-incomplete {
+  float: left;
+  width: 29%;
+  padding: 20px;
+  margin:20px;
+  height: 160px;
+  background: #2F2F2F;
+  border-radius: 6px;
+  filter: drop-shadow(0 0 16px rgb(8, 8, 8));
+}
+
+.card-complete {
+  float: left;
+  width: 29%;
+  padding: 20px;
+  margin:20px;
+  height: 160px;
+  background: #202020;
+  border-radius: 6px;
+  border: solid;
+  border-width: 2px;
+  border-color: #7AB530;
+}
+
+.list-title {
+  background: #2F2F2F;
+}
+
+.line {
+  color: #5C5C5C;
+  position: relative;
+  border-top: 2px solid;
+}
+
+.list-check {
+  margin-left: 0px;
+  margin-right: 35px;
+  margin-bottom: 15px;
+}
+
+.delete {
+  background: none;
+  border: none;
+  color: #AFAFAF;
+  margin-left: 0px;
+  margin-bottom: 15px;
+}
